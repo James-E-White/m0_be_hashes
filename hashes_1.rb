@@ -1,6 +1,3 @@
-
-Activity:
-
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your Terminal:
@@ -10,20 +7,20 @@ foods = {"apples" => 23, "grapes" => 507, "eggs" => 48}
 
 
 # Write code that prints all of the 'keys' of the foods variable
-# you created above:
-# YOUR CODE HEREf food.keys
+# you created above
+foods.keys
 
 # Write code that prints all of the 'values' of the foods variable
 # you created above:
-# YOUR CODE HERE food.values
+foods.values
 
 # Write code that prints the value of the second food of the foods variable
 # you created above:
-# YOUR CODE HERE food.values "grapes"
+foods.values
 
 # Write code that adds a food to the foods hash.
 # Then, print the updated hash:
-# YOUR CODE HERE foods["orange"] =23
+foods["orange"] =23
 
 
 #-------------------
@@ -38,20 +35,20 @@ foods = {"apples" => 23, "grapes" => 507, "eggs" => 48}
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
-email ={
-  "dadmanjames@gmail.com",
-"new e-mails" =>243,
-"read e-mails" =>55,
-"sent e-mails" =>22,
-"up to date" => true}
+email = {
+"new e-mails" => 243,
+"read e-mails" => 55,
+"sent e-mails" => 22,
+"up to date" => true
+}
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-# YOUR CODE HERE  email.keys
+email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# YOUR CODE HERE email.values
+email.values
 
 
 #-------------------
@@ -106,18 +103,10 @@ emails = ["dadmanjames@gmail.com", "whitejaad@gmail.com", "dublinwhite@icloud.co
      sent_to_family:"emails to son" =>25",
      "emails up to date" => true
 
-  },
-  {
-    image_src: "./images/holiday-party.png",
-    caption: "What a great holiday party omg",
-    timestamp: "11:37 PM December 31, 2019",
-    number_likes: 13,
-    comments: []
   }
-]
 
-p posts
-p posts[0]
+  emails.keys
+
 
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
