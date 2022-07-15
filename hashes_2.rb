@@ -1,16 +1,10 @@
 # 1- Using the following Hash
 
-states = {
-  "Oregon" => "OR",
-  "Alabama" => "AL",
-  "New Jersey" => "NJ",
-  "Colorado" => "CO"
-}
 
 # Use the each method to iterate through it and print out a sentence stating each state name and abbreviation
-#
-#
-#
+states.each_pair do |key, value|
+puts "the abbreviation for #{key} is #{value}."
+end
 
 
 # ======================================
@@ -24,7 +18,9 @@ birthdays = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each friends name and birthday
-#
+birthdays.each_pair do |key, value|
+  puts "The name and date for #{key} and #{value}"
+end
 #
 #
 
@@ -40,6 +36,9 @@ login_statuses = {
 }
 
 # Use the each method to iterate through it and print ONLY the names of friends who are "logged in"
-#
+login_statuses.each do |key, value|
+if login_statuses == true for #{keys}
+  puts name
+end
 #
 #
